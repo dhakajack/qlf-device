@@ -1,0 +1,5 @@
+The intent of this project was to make it possible to send one or another character to a computer using a foot pedal. The foot pedal, mode, and character select switches are read by an ATTINY. The ATTINY is hooked up to the control board recovered from a USB keyboard. The device itself is powered from the USB.  The status of the device is displayed on LEDs and with optional audio feedback via a piezo element. Available modes are push-to-talk (PTT), one-shot, and toggle on/off. Details about the impetus for this project and other versions of the design can be found on my <a href='http://blog.templaro.com/?p=1033'>blog</a>.
+
+Here is a schematic of a specific implementation, but you'd need to pick the right pins on the USB keyboard connector that work for your specific model. Again, more details are on the blog.
+
+<img src='http://blog.templaro.com/wp-content/uploads/2013/04/qlf2_mono.png' width='600'>
